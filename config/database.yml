@@ -59,6 +59,8 @@ production:
   pool: 5
   timeout: 5000
   database: sample_capistrano_production
-  username: <%=ENV['mysql_user']%>
-  password: <%=ENV['mysql_password']%>
+  username: demo
+  #<%=ENV['mysql_user']%>
+  password: demo
+  #<%=ENV['mysql_password']%>
   #socket: /var/lib/mysqld/mysqld.sock
