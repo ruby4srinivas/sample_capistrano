@@ -11,6 +11,7 @@ set :puma_workers, 0
 # Don't change these unless you know what you're doing
 set :pty,             true
 set :use_sudo,        true # changed false to true
+set :ssh_options, {:forward_agent => true} # just added
 set :stage,           :production
 set :rails_env,       :production #just added
 set :deploy_via,      :remote_cache #copy

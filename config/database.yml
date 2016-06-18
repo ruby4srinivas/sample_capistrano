@@ -61,4 +61,4 @@ production:
   database: sample_capistrano_production
   username: <%=ENV['mysql_user']%>
   password: <%=ENV['mysql_password']%>
-  socket: /var/lib/mysqld/mysqld.sock
+  #socket: /var/lib/mysqld/mysqld.sock
