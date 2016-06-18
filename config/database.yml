@@ -58,7 +58,7 @@ production:
   encoding: utf8
   pool: 5
   timeout: 5000
-  database: sampleapp_capistrano_production
+  database: sample_capistrano_production
   username: <%=ENV['mysql_user']%>
   password: <%=ENV['mysql_password']%>
   socket: /var/lib/mysqld/mysqld.sock
